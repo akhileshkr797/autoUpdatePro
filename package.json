@@ -9,9 +9,6 @@
     },
     "build": {
         "appId": "com.OhmSystems.autoUpdate",
-        "copyright": "Copyright © 2017 akhilesh",
-        "productName": "electronProject",
-        "electronVersion": "1.0.0",
         "win": {
             "target": [
                 "nsis"
