@@ -1,6 +1,7 @@
 body {
     margin: 5px auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid grey;
 }
 
 h3 {
