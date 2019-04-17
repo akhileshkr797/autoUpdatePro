@@ -1,0 +1,19 @@
+{
+    "name": "autoupdatepro",
+    "version": "1.0.0",
+    "description": "autoUpdate",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akhileshkr797/autoUpdatePro.git"
+    },
+    "author": "akhilesh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/akhileshkr797/autoUpdatePro/issues"
+    },
+    "homepage": "https://github.com/akhileshkr797/autoUpdatePro#readme"
+}
