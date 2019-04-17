@@ -2,21 +2,35 @@
     "name": "autoupdatepro",
     "version": "1.0.0",
     "description": "autoUpdate",
-    "main": "main.js",
+    "main": "./app/main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "dist": "build --win --x64 --ia32"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/akhileshkr797/autoUpdatePro.git"
-    },
-    "author": "akhilesh",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/akhileshkr797/autoUpdatePro/issues"
-    },
-    "homepage": "https://github.com/akhileshkr797/autoUpdatePro#readme",
-    "devDependencies": {
-        "electron-builder": "^20.39.0"
+    "build": {
+        "appId": "com.OhmSystems.autoUpdate",
+        "copyright": "Copyright © 2017 akhilesh",
+        "productName": "electronProject",
+        "electronVersion": "1.0.0",
+        "mac": {
+            "category": "public.app-category.developer-tools"
+        },
+        "win": {
+            "target": [
+                "nsis"
+            ]
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/akhileshkr797/autoUpdatePro.git"
+        },
+        "author": "akhilesh",
+        "license": "MIT",
+        "bugs": {
+            "url": "https://github.com/akhileshkr797/autoUpdatePro/issues"
+        },
+        "homepage": "https://github.com/akhileshkr797/autoUpdatePro#readme",
+        "devDependencies": {
+            "electron-builder": "^20.39.0"
+        }
     }
-}
