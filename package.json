@@ -2,7 +2,7 @@
     "name": "autoupdatepro",
     "version": "1.0.0",
     "description": "autoUpdate",
-    "main": "./app/main.js",
+    "main": "main.js",
     "scripts": {
         "start": "electron .",
         "dist": "build --win --x64 --ia32"
@@ -12,9 +12,6 @@
         "copyright": "Copyright © 2017 akhilesh",
         "productName": "electronProject",
         "electronVersion": "1.0.0",
-        "mac": {
-            "category": "public.app-category.developer-tools"
-        },
         "win": {
             "target": [
                 "nsis"
