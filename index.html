@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>autoUpdate</title>
+</head>
+
+<body>
+    <h3>Electron autoUpdate Project</h3>
+    <p id="p01">Now that we have successfully built an app that we can distribute, we need to begin to think long term. How do we inform the user that a new feature has been added to your awesome app (or worse, you had to fix a bug)? Electron includes an auto-update
+        module that we can leverage to assist in the tasks needing to check for an update, and properly install them. This process can be broken down into three primary tasks: the base code we need to include in our Electron application, the modifications
+        needed for the build process, and the proper distribution of the app. <br> Electron has an auto-updater module that is part of the core framework. This module is just an interface to Squirrel (https://github.com/Squirrel). It is this framework
+        that handles the tasks of checking for a new version, downloading, it and performing the actual upgrade. However, both macOS and Windows interact with this module in different ways. Unfortunately, Linux-based Electron apps cannot use this module
+        to auto update themselves. <br> Before we begin adding this functionality to your Electron app, we strongly recommend that you work through the process with a sample app first, rather than add this to an existing Electron application. This will
+        let you quickly test out the workflow and configurations without the overhead that your full Electron application might have. We will continue to extend the sample app from the previous chapter, as we will need to be using packaged Electron applications
+        in order to test the auto-updating feature.
+    </p>
+
+
+</body>
+
+<script>
+    require(. / renderer.js)
+</script>
+
+</html>
