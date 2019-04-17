@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/akhileshkr797/autoUpdatePro/issues"
     },
-    "homepage": "https://github.com/akhileshkr797/autoUpdatePro#readme"
+    "homepage": "https://github.com/akhileshkr797/autoUpdatePro#readme",
+    "devDependencies": {
+        "electron-builder": "^20.39.0"
+    }
 }
